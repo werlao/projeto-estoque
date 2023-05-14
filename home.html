@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Estoque
+    </title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script src="/src/js/estoque.js"></script>
+</head>
+
+<body>
+    <h1>CONTROLE DE ESTOQUE</h1>
+    <style>
+        input[type=text],
+        select {
+            width: 13%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #f84242;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #f84242;
+        }
+
+    </style>
+    <label for="adicionar">Nome do Produto</label>
+    <input type="text" id="adicionar" placeholder="Nome do produto">
+    <label for="quantidadePorCaixas">Qtd. Por Caixa</label>
+    <input type="text" id="quantidadePorCaixas" placeholder="Unidades">
+    <button onclick="addProduto()" class="button">Adicionar</button>
+    <table class="center">
+        <thead>
+            <tr>
+                <th>Nome do produto</th>
+                <th>Caixas</th>
+                <th>Unidades</th>
+                <th>Un. Retirada</th>
+                <th>Total de Un.</th>
+                <th class="afasta">Adicionar na tabela</th>
+            </tr><br><br><br>
+        </thead>
+        <tbody id="tabelaItem">
+        </tbody>
+    </table><br><br><br><br><br><br>
+    <br>
+        
+</body>
+
+</html>

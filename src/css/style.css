@@ -1,0 +1,223 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-color: #bababa;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pierre-logo {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+table {
+    margin: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid rgb(114, 114, 114);
+    border-collapse: collapse;
+}
+
+h1 {
+    position: relative;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17em;
+    padding: 22px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    background-color: #4CAF50;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+.fruit-logo{
+    margin-top: -250;
+    width: 35%;
+    
+}
+
+th,
+tr,
+td {
+    margin: 10px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+}
+
+.afasta {
+    width: 20em;
+}
+
+.button {
+    margin: 15px;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+
+.button:hover {
+    background-color: #3e8e41
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px rgb(56, 56, 56);
+    transform: translateY(2px);
+}
+
+
+.caixas {
+    margin-left: 1%;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #ffdd46;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+
+.caixas:hover {
+    background-color: #b39b31
+}
+
+.caixas:active {
+    background-color: #a38d2c;
+    box-shadow: 0 2px rgb(56, 56, 56);
+    transform: translateY(2px);
+}
+
+.unidades {
+    margin-left: 1%;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #55a2fa;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+
+.unidades:hover {
+    background-color: #366aa5
+}
+
+.unidades:active {
+    background-color: #305f96;
+    box-shadow: 0 2px rgb(56, 56, 56);
+    transform: translateY(2px);
+}
+
+.retiradas {
+    margin-left: 1%;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #fc9c4d;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+
+.retiradas:hover {
+    background-color: #995e2e
+}
+
+.retiradas:active {
+    background-color: #945b2d;
+    box-shadow: 0 2px rgb(56, 56, 56);
+    transform: translateY(2px);
+}
+
+.limpar {
+    margin-left: 1%;
+    display: inline-block;
+    padding: 10px 18px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f84242;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 3px rgb(95, 95, 95);
+}
+
+.limpar:hover {
+    background-color: #962727
+}
+
+.limpar:active {
+    background-color: #9c0f0f;
+    box-shadow: 0 2px rgb(56, 56, 56);
+    transform: translateY(2px);
+}
+
+
+.tabelaFruta {
+    margin: 10px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
